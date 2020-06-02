@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30001.183
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Problems", "00 Problems", "{6EF25F8D-D67E-4ACE-9E8D-10F0EC319DE6}"
+	ProjectSection(SolutionItems) = preProject
+		00 Problems\Problems.PNG = 00 Problems\Problems.PNG
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Logic", "01 Logic", "{2C2D89A4-0B7A-43D3-954A-9BFF82BC3F73}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Apps", "02 Apps", "{3F6AB435-1AB7-42DD-8503-8016E765F8EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 TestCase", "03 TestCase", "{48ABE9AA-C947-44C3-B263-DD78F0234DEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection.Logic", "01 Logic\Intersection.Logic\Intersection.Logic.csproj", "{B828AE9A-C5B0-4191-974C-44045F32F6BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection.Apps", "02 Apps\Intersection.Apps\Intersection.Apps.csproj", "{3A4F61B8-CFD9-407D-AA21-053FC3B8103B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intersection.MS.Testing", "03 TestCase\Intersection.MS.Testing\Intersection.MS.Testing.csproj", "{93A68D41-DBAF-463B-9FB2-015B65DD8A13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B828AE9A-C5B0-4191-974C-44045F32F6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B828AE9A-C5B0-4191-974C-44045F32F6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B828AE9A-C5B0-4191-974C-44045F32F6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B828AE9A-C5B0-4191-974C-44045F32F6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A4F61B8-CFD9-407D-AA21-053FC3B8103B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4F61B8-CFD9-407D-AA21-053FC3B8103B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4F61B8-CFD9-407D-AA21-053FC3B8103B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4F61B8-CFD9-407D-AA21-053FC3B8103B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A68D41-DBAF-463B-9FB2-015B65DD8A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A68D41-DBAF-463B-9FB2-015B65DD8A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A68D41-DBAF-463B-9FB2-015B65DD8A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A68D41-DBAF-463B-9FB2-015B65DD8A13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B828AE9A-C5B0-4191-974C-44045F32F6BD} = {2C2D89A4-0B7A-43D3-954A-9BFF82BC3F73}
+		{3A4F61B8-CFD9-407D-AA21-053FC3B8103B} = {3F6AB435-1AB7-42DD-8503-8016E765F8EE}
+		{93A68D41-DBAF-463B-9FB2-015B65DD8A13} = {48ABE9AA-C947-44C3-B263-DD78F0234DEC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7E972A8-58BC-4907-82AA-CBE746078632}
+	EndGlobalSection
+EndGlobal
